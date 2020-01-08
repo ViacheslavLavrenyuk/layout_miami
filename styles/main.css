@@ -20,7 +20,7 @@ h6 {
 
 body {
   line-height: 1.5;
-  min-width: 434px; }
+  min-width: 354px; }
 
 .logo {
   width: 115px;
@@ -301,7 +301,7 @@ body {
     color: inherit; }
   .input::placeholder {
     color: inherit; }
-  .input__textarea {
+  .input_textarea {
     height: 166px; }
 
 .testimonials {
