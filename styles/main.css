@@ -22,6 +22,9 @@ body {
   line-height: 1.5;
   min-width: 354px; }
 
+html {
+  scroll-behavior: smooth; }
+
 .logo {
   width: 115px;
   height: 76px;
