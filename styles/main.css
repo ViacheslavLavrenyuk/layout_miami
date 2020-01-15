@@ -207,6 +207,12 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  @media screen and (max-width: 1024px) {
+    .photos {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
   .photos__img {
     width: calc(50% - 10px);
     height: 260px;
@@ -214,10 +220,22 @@ html {
        object-fit: cover;
     -o-object-position: center;
        object-position: center; }
+    @media screen and (max-width: 1024px) {
+      .photos__img {
+        width: 100%;
+        margin-top: 10px; } }
   .photos_narrow {
     width: calc(33% - 10px); }
+    @media screen and (max-width: 1024px) {
+      .photos_narrow {
+        width: 100%;
+        margin-top: 10px; } }
   .photos_wide {
     width: calc(67% - 10px); }
+    @media screen and (max-width: 1024px) {
+      .photos_wide {
+        width: 100%;
+        margin-top: 10px; } }
 
 .gallery__caption {
   margin: 12px 0 35px; }
@@ -295,15 +313,20 @@ html {
           box-sizing: border-box;
   text-transform: uppercase; }
   .input::-webkit-input-placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.5; }
   .input::-moz-placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.5; }
   .input:-ms-input-placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.5; }
   .input::-ms-input-placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.5; }
   .input::placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.5; }
   .input_textarea {
     height: 166px; }
 
